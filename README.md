@@ -2,16 +2,16 @@
 
 The purpose of the Data Collector Script is to collect all the data that might be required to troubleshoot the issue you reported to the Microsoft Support on an efficient way. This Data Collector Script collects the following information:
 
-Registry keys (SCHANNEL, WinHTTP)
-Azure AD Application Proxy service trace
-Network Capture, information about the network configuration like IPCONFIG /ALL etc.
-MSInfo32
-Extended Traces (WinHttp, Schannel, DCLoc, Kerberos/Ntlm)
-Eventlogs (System, Security, Application, Azure AD Application Proxy related logs, CAPI)
-List of certificates in the certificate stores
-Group policy result
-Information about the patch level of the server
-Adding the -ServiceTraceOn parameter, the service trace will be collected. This restarts the service!
+- Registry keys (SCHANNEL, WinHTTP)
+- Azure AD Application Proxy service trace
+- Network Capture, information about the network configuration like IPCONFIG /ALL etc.
+- MSInfo32
+- Extended Traces (WinHttp, Schannel, DCLoc, Kerberos/Ntlm)
+- Eventlogs (System, Security, Application, Azure AD Application Proxy related logs, CAPI)
+- List of certificates in the certificate stores
+- Group policy result
+- Information about the patch level of the server
+- Adding the -ServiceTraceOn parameter, the service trace will be collected. This restarts the service!
 
 If you have any concerns or would like to know more details about the data the script collects, please don't hesitate to contact us and don't start the data collection.
 
