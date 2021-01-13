@@ -15,7 +15,7 @@ The purpose of the Data Collector Script is to collect all the data that might b
 
 If you have any concerns or would like to know more details about the data the script collects, please don't hesitate to contact us and don't start the data collection.
 
-1. Download the file and create a folder on the machine(s) where the connector is running. Example: C:\tracing
+1. Download the AADAP_DataCollectorv9.zip file and create a folder on the machine(s) where the connector is running. Example: C:\tracing
 2. Copy the file to that folder on the server(s). Decompress the file. You should see the files: AAD-AP-tracingV9.ps1, AppProxyTrace.cmd, tracelog.exe, AgentConstants.ps1,   ConfigureAgentLogging.ps1.
 
 Note: The script will capture multiple traces in circular buffers. It will use a temporary folder under the path you provide (Example: C:\tracing\temporary). The temporary folder will be compressed and .zip file left in the path file you selected. Please ensure that you have at least 5 GB free space on the hard drive where the tracing folder stored. Please don't kill or force the script to stop. If something went wrong, please wait until the script has finished, close the Powershell window and start the steps from the beginning.
