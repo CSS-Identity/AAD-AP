@@ -6,7 +6,7 @@ The purpose of the Data Collector Script is to collect all the data that might b
 - Azure AD Application Proxy service trace
 - Network Capture, information about the network configuration like IPCONFIG /ALL etc.
 - MSInfo32
-- Extended Traces (WinHttp, Schannel, DCLoc, Kerberos/Ntlm)
+- Extended Traces (WinHttp, Schannel, DCLoc, Kerberos/Ntlm, Netlogon log)
 - Eventlogs (System, Security, Application, Azure AD Application Proxy related logs, CAPI)
 - List of certificates in the certificate stores
 - Group policy result
