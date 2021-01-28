@@ -20,7 +20,7 @@ If you have any concerns or would like to know more details about the data the s
 
 Note: The script will capture multiple traces in circular buffers. It will use a temporary folder under the path you provide (Example: C:\tracing\temporary). The temporary folder will be compressed and .zip file left in the path file you selected. Please ensure that you have at least 5 GB free space on the hard drive where the tracing folder stored. Please don't kill or force the script to stop. If something went wrong, please wait until the script has finished, close the Powershell window and start the steps from the beginning.
 
-3. Open a PowerShell console with elevated privileges in all the machines which is running AAD-AP, navigate to the C:\tracing folder, and execute .\AAD-AP-tracingV9.ps1. Important: Provide an absolute Path to the script (like "C:\tracing" and not just "tracing" or ".\tracing")
+3. Open a PowerShell console with elevated privileges in all the machines which is running AAD-AP, navigate to the C:\tracing folder, and execute .\AAD-AP-tracingV10.ps1. Important: Provide an absolute Path to the script (like "C:\tracing" and not just "tracing" or ".\tracing")
 4. The script will prepare itself to start capturing. When you have the script in this prompt in all the servers, just hit any key to start collecting data in all of them. It will then display another message to inform you that it's collecting data. It will wait for another key to be pressed to stop the capture.
 5. Perform the steps to REPRODUCE THE ISSUE. Please do this as quickly as you can.
 6. When reproduced, hit any key to stop the capture. It will take several minutes and some popup windows will appear.
