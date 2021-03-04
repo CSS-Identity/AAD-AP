@@ -1,3 +1,5 @@
+!!! At the moment the data collector script can only be shared by the support agent !!!
+
 # Azure AD Application Proxy Connector - Data Collector Script
 
 The purpose of the Data Collector Script is to collect all the data that might be required to troubleshoot the issue you reported to the Microsoft Support on an efficient way. This Data Collector Script collects the following information:
